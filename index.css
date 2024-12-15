@@ -1,0 +1,80 @@
+body 
+{
+    color: rgb(215,171,76,255);
+    background-color: rgb(40, 40, 40);
+    font: 100%/1.5em "Fira Code Light";
+
+
+
+}
+
+ul
+{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding: 50px;
+    align-items: center;
+}
+
+a
+{
+    color: rgb(215,171,76,255);
+    text-decoration: none;
+    position: relative;
+}
+
+h1{
+    color: rgb(215,171,76);
+    text-decoration: none;
+    position: relative; /* Necessário para alinhar o pseudo-elemento */
+    display: inline-block; /* Garante alinhamento inline */
+    font-size: 1.5rem; /* Tamanho do título */
+}
+
+/* Adiciona o ponto piscante antes do texto Wishlist */
+h1::before {
+    content: "."; /* Ponto adicionado */
+    position: absolute;
+    right: 1rem; /* Define a posição antes do texto */
+    animation: blink 1.5s infinite; /* Aplica a animação */
+}
+
+/* Animação para piscar */
+@keyframes blink {
+    0%, 50% {
+        opacity: 1; /* Ponto visível */
+    }
+    50.01%, 100% {
+        opacity: 0; /* Ponto invisível */
+    }
+}
+
+p
+{
+    color: rgb(215,171,76,255);
+    text-align: center;
+    font-size: 0.9em;
+    margin-top: -8px;
+    animation: fadeIn 1s ease-in-out; /* Aplica a animação de fade-in */
+    
+}
+
+img
+{
+    width: 30px;
+    height:auto;
+    border-radius: 50;
+    border: 5px 
+    
+}
+
+.center{
+    text-align: center;
+    margin-top: 65px;
+
+}
+main a:hover
+{
+    color: gray;
+}
