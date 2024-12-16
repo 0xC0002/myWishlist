@@ -2,7 +2,7 @@ body
 {
     color: rgb(215,171,76);
     background-color: rgb(40, 40, 40);
-    font: 100%/1.5em "Fira Code Light";
+    font-family: 'Fira Code Light', monospace;
 
 
 
