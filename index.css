@@ -3,9 +3,7 @@ body
     color: rgb(215,171,76);
     background-color: rgb(40, 40, 40);
     font-family: 'Fira Code Light', monospace;
-
-
-
+    font-weight: 300; /* Light */
 }
 
 ul
@@ -29,7 +27,7 @@ h1{
     text-decoration: none;
     position: relative; /* Necessário para alinhar o pseudo-elemento */
     display: inline-block; /* Garante alinhamento inline */
-    font-size: 1.5rem; /* Tamanho do título */
+    font-size: 1.8rem; /* Tamanho do título */
 }
 
 /* Adiciona o ponto piscante antes do texto Wishlist */
